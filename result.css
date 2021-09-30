@@ -1,0 +1,195 @@
+body{
+    text-align: center;
+        
+    background: rgb(224,247,55);
+    background: linear-gradient(90deg, rgba(224,247,55,0.9839286056219363) 0%,
+    rgba(254,255,68,1) 35%, rgba(133,240,49,1) 64%, rgba(0,212,255,1) 100%);
+}
+.maindiv{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;    
+    
+    
+
+}
+.conatiner{
+    bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;    
+    
+}
+p{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: .1cm;
+    text-shadow: 2px 2px 3px black;
+    text-transform: capitalize;
+}
+.print{
+    bottom: 20px;
+}
+.rsultdiv{
+    margin-top: 30px;
+
+    font-size: large;
+    background-color: rgba(27, 13, 49, 0.219);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1cm;
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+    animation: boxshadow 2s ease infinite;
+    
+   
+}
+.Developer{
+    margin-top: 350px;
+    font-size: large;
+    background-color: rgba(27, 13, 49, 0.219);
+    text-align: center;    
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1cm;
+    width: 450px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  black ;
+    
+
+}
+
+
+
+
+@keyframes zoom{
+    50%{
+        transform: scale(1.2);
+        color: black;
+
+    }
+    70%{
+        color: red;
+    }
+    
+}
+
+
+
+
+
+
+@keyframes boxshadow{
+    
+
+    50%{
+        box-shadow: 5px 5px 15px  black ;
+    }
+}
+/*body{
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+    
+    background: rgb(224,247,55);
+    background: linear-gradient(90deg, rgba(224,247,55,0.9839286056219363) 0%, 
+    rgba(254,255,68,1) 35%, rgba(133,240,49,1) 64%, rgba(0,212,255,1) 100%);
+    
+
+}*/
+h1{
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: .1cm;
+    text-shadow: 2px 2px 3px black;
+}
+.semleb{
+    letter-spacing: .08cm;
+    word-spacing: .2cm;
+    font-weight: 500;
+}
+
+.seno{
+    margin-top: 100px;
+}
+.name{
+    width: 250px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.usn{
+    width: 250px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.usn_num{
+    
+    font-size: 30px;
+    font-weight: 50;
+    background: transparent;
+    border: none;
+   
+}
+.username{
+    
+    font-size: 30px;
+    font-weight: 0;
+    background: transparent;
+    border: none;
+    
+}
+.Submit{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: rgba(255, 255, 0, 0.747);
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+    
+}
+.Subm{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: rgba(255, 255, 0, 0.747);
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    box-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+    
+}
+.scene{
+    font-size: 40px;    
+    
+}
+.Submit:hover{
+    background-image: linear-gradient(
+90deg
+, rgba(224, 247, 55, 0.984) 0%, rgb(254, 255, 68) 35%, rgb(133, 240, 49) 64%, rgb(0, 212, 255) 100%);
+    transition: all 150ms ease-in-out 0s;
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+
+}
+
